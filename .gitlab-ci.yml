@@ -1,0 +1,9 @@
+develop:
+  only:
+    - v2
+  tags:
+    - develop
+  script:
+    - yarn 
+    - yarn build
+    - yarn generate
